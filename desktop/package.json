@@ -1,0 +1,22 @@
+{
+  "name": "iderrara-desktop",
+  "version": "0.1.0",
+  "description": "IDERRARA – Logo Marcas (aplicativo de desktop)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "br.iderrara.app",
+    "productName": "IDERRARA",
+    "files": ["main.js", "IDERRARA.html"],
+    "win": { "target": "portable" },
+    "mac": { "target": "dmg" },
+    "linux": { "target": "AppImage" }
+  }
+}

@@ -1,0 +1,26 @@
+:root {
+  --page: #030a24;
+  --bg: #040e30;
+  --panel: #071542;
+  --panel-2: #0d2060;
+  --line: #2a3a7c;
+  --text: #f6e7c4;
+  --muted: #a9b2d6;
+  --accent: #f2c061;
+  --accent-text: #071542;
+  --field: #040e30;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--text);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input, select { font: inherit; color: inherit; }
